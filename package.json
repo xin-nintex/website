@@ -4,6 +4,9 @@
   "private": true,
   "description": "hackathon-2022-team-23",
   "author": "xin-nintex",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "keywords": [
     "gatsby"
   ],
