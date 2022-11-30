@@ -1,0 +1,55 @@
+---
+title: "Tasks"
+slug: "tasks"
+---
+<div className="container">
+# Tasks
+list of task to automate
+## Tools
+1. Visual Studio 2022
+1. Visual Studio Code
+1. SQL Server Management Studio
+1. .Net Framework 4.8 Developer Pack
+1. .Net 6 SDK
+1. Git
+1. NodeJs 16.x
+1. Ruby
+<br/>
+<div className="alert alert-info">
+<p>Script to Install All</p>
+<code>winget install -e --id Git.Git;winget install -e --id OpenJS.NodeJS.LTS;winget install -e --id RubyInstallerTeam.Ruby.3.1;winget install -e --id Microsoft.VisualStudioCode;winget install -e --id Microsoft.SQLServerManagementStudio;winget install -e --id Microsoft.VisualStudio.2022.Professional;winget install -e --id Microsoft.dotNetFramework</code>
+</div>
+<div className="alert alert-warning">
+[Winget Info](https://learn.microsoft.com/en-us/windows/package-manager/winget/) <br/>
+Windows Package Manager winget command-line tool is bundled with Windows 11 and modern versions of Windows 10 by default as the App Installer.
+</div>
+<br/>
+## Services
+1. SQL Server 2019
+1. Redis
+<br/>
+<div className="alert alert-info">
+#### Note
+1. manually configure the container and save as image or use Dockerfile to build image
+1. needs a public container image registry to publish our docker image
+see 
+[Create Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal?tabs=azure-cli) and
+[Enable No Authentication](https://learn.microsoft.com/en-us/azure/container-registry/anonymous-pull-access)
+</div>
+<br/>
+## Auth Tokens
+1. Create Github Access Token
+1. Create ADO Access Token
+
+<div className="alert alert-info">
+github access token is to gain access to promapp private repo for cloning
+e.g. <br/>
+<code>gh auth login --with-token</code><br/>
+<code>gh repo clone </code>
+</div>
+<br/>
+## Transform Secrets into Web.config
+powershell xlts e.g. [this](https://www.hanselman.com/blog/xslt-with-powershell)
+</div>
+
+
